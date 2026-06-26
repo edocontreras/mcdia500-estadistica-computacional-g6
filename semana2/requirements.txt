@@ -1,0 +1,12 @@
+# Dependencias principales del proyecto para MCDIA500 - Programación Ciencia de Datos
+# Fase 1: diagnóstico y auditoría inicial de calidad de datos clínicos
+# Python recomendado: 3.12.4
+
+# Entorno Jupyter
+jupyterlab==4.0.11
+notebook==7.0.8
+ipykernel==6.28.0
+
+# Análisis y manipulación de datos
+pandas==2.2.2
+numpy==1.26.4
