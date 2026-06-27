@@ -106,13 +106,17 @@ def resolver_raiz_proyecto(cwd: str | None = None) -> Path:
     if not matches and current.parent.exists():
         matches = list(current.parent.rglob("weatherAUS.csv"))
 
+    raw_matches = [
+        path
+        for path in matches
+        if path.parent.name == "raw" and path.parent.parent.name == "data"
+    ]
+
+    if raw_matches:
+        return raw_matches[0].parent.parent.parent
+
     if matches:
-        weather_path = matches[0]
-
-        if weather_path.parent.name == "raw" and weather_path.parent.parent.name == "data":
-            return weather_path.parent.parent.parent
-
-        return weather_path.parent
+        return matches[0].parent
 
     raise FileNotFoundError(
         "No se encontró weatherAUS.csv en data/raw ni en rutas cercanas."
