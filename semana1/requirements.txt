@@ -1,12 +1,18 @@
-# Dependencias principales del proyecto para MCDIA500 - Programación Ciencia de Datos
-# Fase 1: diagnóstico y auditoría inicial de calidad de datos clínicos
+# Dependencias principales del proyecto MCDI501
+# Formativa 1: análisis exploratorio e inferencial del dataset Rain in Australia
 # Python recomendado: 3.12.4
 
 # Entorno Jupyter
-jupyterlab==4.0.11
-notebook==7.0.8
-ipykernel==6.28.0
+jupyterlab==4.2.5
+notebook==7.2.2
+ipykernel==6.29.5
 
 # Análisis y manipulación de datos
 pandas==2.2.2
 numpy==1.26.4
+
+# Estadística inferencial
+scipy==1.14.1
+
+# Visualización
+matplotlib==3.9.2
