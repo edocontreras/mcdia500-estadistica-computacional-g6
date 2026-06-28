@@ -37,7 +37,7 @@ semana1/
 
 ## Salidas generadas
 
-El notebook genera y organiza los principales resultados en la carpeta `docs/`, considerando:
+La carpeta docs/ consolida los principales productos de la entrega, considerando:
 
 * 15 tablas en formato `.csv`, almacenadas en `docs/tables/`.
 * 9 figuras en formato `.png`, almacenadas en `docs/figures/`.
