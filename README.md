@@ -4,7 +4,7 @@
 
 Para el proyecto se seleccionó el dataset **Rain in Australia**, el cual contiene aproximadamente 10 años de observaciones meteorológicas diarias registradas en distintas estaciones climáticas de Australia.
 
-El objetivo del proyecto es analizar variables meteorológicas relevantes y estudiar su relación con la variable `RainTomorrow`, que indica si lloverá o no al día siguiente. A partir de este conjunto de datos, el repositorio organiza el desarrollo progresivo de análisis exploratorio, estadística descriptiva, inferencia estadística y posteriores etapas de modelamiento.
+El objetivo del proyecto es analizar variables meteorológicas relevantes y estudiar su relación con la variable `RainTomorrow`, que indica si lloverá o no al día siguiente. A partir de este conjunto de datos, el repositorio organiza el desarrollo progresivo de análisis exploratorio, estadística descriptiva, inferencia estadística y posteriores etapas analíticas del proyecto.
 
 El proyecto está organizado para facilitar la trazabilidad del trabajo, la reutilización de funciones, la ejecución de notebooks en Jupyter y el control de versiones mediante GitHub.
 
@@ -50,7 +50,7 @@ Cada carpeta semanal contiene una estructura orientada a mantener orden, reprodu
 
 La organización del repositorio considera las siguientes etapas:
 
-* **Semana 1:** Formativa 1, Informe 1 y Sumativa 1. Incluye análisis exploratorio, estadística descriptiva, inferencia inicial, matriz de correlación, tablas, figuras, inventario de outputs y notebook reproducible.
+* **Semana 1:** Formativa 1, Informe 1 y Sumativa 1. Incluye análisis exploratorio, estadística descriptiva, inferencia inicial, matriz de correlación, tablas, figuras, inventario de salidas y notebook reproducible.
 * **Semana 2:** Sumativa 2, Informe 3. Carpeta reservada para el desarrollo de la siguiente etapa del proyecto.
 * **Semana 3:** Formativa 2, Informe 4 y Sumativa 3. Carpeta reservada para el cierre, comunicación y consolidación final del proyecto.
 
@@ -110,23 +110,25 @@ Ingresar a la carpeta donde se clonó el repositorio:
 cd mcdia500-estadistica-computacional-g6
 ```
 
-Para revisar el avance semanal, se debe ingresar a la carpeta correspondiente:
+Para revisar el avance semanal, se debe ingresar a la carpeta correspondiente. Por ejemplo, para Semana 1:
 
 ```bash
 cd semana1
 ```
 
-Para semanas posteriores, según corresponda:
+Para semanas posteriores, se debe volver a la raíz del repositorio e ingresar a la carpeta respectiva:
 
 ```bash
 cd semana2
 ```
 
+o:
+
 ```bash
 cd semana3
 ```
 
-## 2. Crear el entorno virtual
+### 2. Crear el entorno virtual
 
 Desde la carpeta semanal correspondiente, ejecutar:
 
@@ -134,7 +136,7 @@ Desde la carpeta semanal correspondiente, ejecutar:
 python -m venv .venv
 ```
 
-## 3. Activar el entorno virtual
+### 3. Activar el entorno virtual
 
 En Windows PowerShell:
 
@@ -148,25 +150,25 @@ Si la activación fue correcta, se debe observar una estructura similar a:
 (.venv) PS C:\ruta\del\proyecto\semana1>
 ```
 
-## 4. Actualizar pip
+### 4. Actualizar pip
 
 ```bash
 python -m pip install --upgrade pip
 ```
 
-## 5. Instalar las dependencias del proyecto
+### 5. Instalar las dependencias del proyecto
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-## 6. Registrar el entorno virtual como kernel de Jupyter
+### 6. Registrar el entorno virtual como kernel de Jupyter
 
 ```bash
 python -m ipykernel install --user --name mcdi501-g6 --display-name "Python 3.12 - MCDI501 G6 Est Comp"
 ```
 
-## 7. Ejecutar JupyterLab
+### 7. Ejecutar JupyterLab
 
 ```bash
 python -m jupyterlab --ServerApp.use_redirect_file=False
