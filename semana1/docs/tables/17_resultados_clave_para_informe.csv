@@ -1,0 +1,7 @@
+﻿seccion,indicador,valor,detalle,tabla_fuente
+Estimación media,Media global Humidity3pm,51.5391158755046,IC 95%: 51.4306 a 51.6477; IC 99%: 51.3964 a 51.6818,10_ic_humidity3pm_95_99.csv
+Estimación media,Media Humidity3pm | RainTomorrow = No,46.51062505804774,IC 95%: 46.4002 a 46.6211,11_ic_humidity3pm_por_grupo_95_99.csv
+Estimación media,Media Humidity3pm | RainTomorrow = Yes,68.80001940931,IC 95%: 68.5878 a 69.0122,11_ic_humidity3pm_por_grupo_95_99.csv
+Estimación proporción,"Proporción RainTomorrow = Yes, Wilson",22.418121848473554,IC Wilson 95%: 22.2021% a 22.6356%; IC Wilson 99%: 22.1345% a 22.7043%,12_ic_wilson_proporcion_rain_tomorrow_yes.csv
+Prueba t de Welch,Diferencia de medias Humidity3pm: Yes - No,22.28939435126226,t = 182.6077; p unilateral < 0.001; Cohen d = 1.1975,13_prueba_t_welch_humidity3pm_unilateral.csv
+Chi-cuadrado,Asociación RainToday vs RainTomorrow,13799.479649324368,gl = 1; p < 0.001; V de Cramer = 0.3131,15_prueba_chi2_rain_today_rain_tomorrow.csv
