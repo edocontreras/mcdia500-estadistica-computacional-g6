@@ -1,4 +1,4 @@
-"""Funciones auxiliares para la Formativa 1 - Grupo 6.
+"""Funciones auxiliares para la Sumativa 1 - Grupo 6.
 
 Este módulo agrupa funciones estadísticas reutilizables para el análisis
 exploratorio e inferencial del dataset Rain in Australia.
