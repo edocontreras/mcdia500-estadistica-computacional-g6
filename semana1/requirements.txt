@@ -1,5 +1,5 @@
 # Dependencias principales del proyecto MCDI501
-# Formativa 1: análisis exploratorio e inferencial del dataset Rain in Australia
+# Sumativa 1: análisis exploratorio e inferencial del dataset Rain in Australia
 # Python recomendado: 3.12.4
 
 # Entorno Jupyter
