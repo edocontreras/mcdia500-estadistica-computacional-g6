@@ -1,0 +1,29 @@
+﻿variable,tipo_general,tipo_estadistico,rol_analitico,descripcion,n_no_nulos,n_faltantes,porcentaje_faltantes
+Date,temporal,fecha,identificación temporal,Fecha de observación,145460,0,0.0
+Location,categórica,nominal,agrupación geográfica,Estación o localidad meteorológica,145460,0,0.0
+MinTemp,numérica,continua,predictora,Temperatura mínima diaria,143975,1485,1.0208992162793895
+MaxTemp,numérica,continua,predictora,Temperatura máxima diaria,144199,1261,0.8669049910628353
+Rainfall,numérica,continua,predictora,Precipitación registrada en el día actual,142199,3261,2.2418534304963567
+Evaporation,numérica,continua,predictora,Evaporación registrada,82670,62790,43.166506256015396
+Sunshine,numérica,continua,predictora,Horas de sol,75625,69835,48.00976213391998
+WindGustDir,categórica,nominal,predictora,Dirección de ráfaga máxima,135134,10326,7.098858792795271
+WindGustSpeed,numérica,continua,predictora,Velocidad de ráfaga máxima,135197,10263,7.055547916953114
+WindDir9am,categórica,nominal,predictora,Dirección del viento a las 09:00,134894,10566,7.263852605527293
+WindDir3pm,categórica,nominal,predictora,Dirección del viento a las 15:00,141232,4228,2.906641000962464
+WindSpeed9am,numérica,continua,predictora,Velocidad del viento a las 09:00,143693,1767,1.214766946239516
+WindSpeed3pm,numérica,continua,predictora,Velocidad del viento a las 15:00,142398,3062,2.105046060772721
+Humidity9am,numérica,continua,predictora,Humedad relativa a las 09:00,142806,2654,1.8245565791282825
+Humidity3pm,numérica,continua,predictora principal,Humedad relativa a las 15:00,140953,4507,3.09844630826344
+Pressure9am,numérica,continua,predictora,Presión atmosférica a las 09:00,130395,15065,10.356799120033
+Pressure3pm,numérica,continua,predictora,Presión atmosférica a las 15:00,130432,15028,10.331362573903478
+Cloud9am,numérica,discreta/ordinal,predictora,Nubosidad a las 09:00,89572,55888,38.42155919153032
+Cloud3pm,numérica,discreta/ordinal,predictora,Nubosidad a las 15:00,86102,59358,40.80709473394747
+Temp9am,numérica,continua,predictora,Temperatura a las 09:00,143693,1767,1.214766946239516
+Temp3pm,numérica,continua,predictora,Temperatura a las 15:00,141851,3609,2.4810944589577892
+RainToday,categórica,binaria nominal,predictora,Lluvia registrada en el día actual,142199,3261,2.2418534304963567
+RainTomorrow,categórica,binaria nominal,variable objetivo,Lluvia registrada al día siguiente,142193,3267,2.245978275814657
+RainToday_bin,numérica,binaria codificada,predictora,Codificación 0/1 de RainToday,142199,3261,2.2418534304963567
+RainTomorrow_bin,numérica,binaria codificada,variable objetivo codificada,Codificación 0/1 de RainTomorrow,142193,3267,2.245978275814657
+Year,numérica,discreta temporal,variable derivada,Año de observación,145460,0,0.0
+Month,numérica,discreta temporal,variable derivada,Mes de observación,145460,0,0.0
+Season,categórica,nominal temporal,variable derivada,Estación climática australiana,145460,0,0.0

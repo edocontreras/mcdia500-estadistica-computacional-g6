@@ -1,0 +1,7 @@
+<<<<<<< HEAD:semana1/docs/tables/12_prueba_t_welch_humidity3pm_unilateral.csv
+﻿n_lluvia,n_sin_lluvia,media_lluvia,media_sin_lluvia,diferencia_medias,ic95_inf_diferencia,ic95_sup_diferencia,t,gl_welch,p_valor_unilateral,cohen_d,decision_alpha_0_05
+30913,107670,68.80001940931,46.51062505804774,22.28939435126226,22.050152012229145,22.528636690295375,182.60769329824922,48892.79622495157,0.0,1.1975113856655384,Rechazar H0
+=======
+﻿n_lluvia,n_sin_lluvia,media_lluvia,media_sin_lluvia,diferencia_medias,ic95_inf_diferencia,ic95_sup_diferencia,t,gl_welch,p_valor_unilateral,p_valor_reporte,cohen_d,decision_alpha_0_05
+30913,107670,68.80001940931,46.51062505804774,22.28939435126226,22.050152012229145,22.528636690295375,182.60769329824922,48892.796224951984,0.0,< 0.001,1.1975113856655228,Rechazar H0
+>>>>>>> 43f05beefba27401d1af33ccfbbe6011a8a4a586:semana1/docs/tables/13_prueba_t_welch_humidity3pm_unilateral.csv

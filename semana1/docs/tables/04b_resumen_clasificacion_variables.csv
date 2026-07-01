@@ -1,0 +1,13 @@
+﻿tipo_general,tipo_estadistico,rol_analitico,cantidad_variables
+categórica,binaria nominal,predictora,1
+categórica,binaria nominal,variable objetivo,1
+categórica,nominal,agrupación geográfica,1
+categórica,nominal,predictora,3
+categórica,nominal temporal,variable derivada,1
+numérica,binaria codificada,predictora,1
+numérica,binaria codificada,variable objetivo codificada,1
+numérica,continua,predictora,13
+numérica,continua,predictora principal,1
+numérica,discreta temporal,variable derivada,2
+numérica,discreta/ordinal,predictora,2
+temporal,fecha,identificación temporal,1
