@@ -1,0 +1,9 @@
+analisis,variables,n_valido,n_excluido_por_nan
+Media global Humidity3pm,Humidity3pm,140953,4507
+Diferencia de medias Humidity3pm por RainTomorrow,Humidity3pm; RainTomorrow; RainTomorrow_bin,138583,6877
+Proporción RainTomorrow = Yes,RainTomorrow_bin,142193,3267
+Correlación Humidity3pm vs RainTomorrow_bin,Humidity3pm; RainTomorrow_bin,138583,6877
+Correlación RainToday_bin vs RainTomorrow_bin,RainToday_bin; RainTomorrow_bin,140787,4673
+Correlación Rainfall vs RainTomorrow_bin,Rainfall; RainTomorrow_bin,140787,4673
+Correlación Pressure3pm vs RainTomorrow_bin,Pressure3pm; RainTomorrow_bin,128212,17248
+Correlación MaxTemp vs RainTomorrow_bin,MaxTemp; RainTomorrow_bin,141871,3589

@@ -1,0 +1,6 @@
+parametro_s1,estimacion_s1,desviacion_estandar,n_valido,unidad
+Media global de Humidity3pm,51.482606091656265,20.79777184369886,138583,Porcentaje
+Media de Humidity3pm | RainTomorrow = No,46.51062505804774,18.489475795722328,107670,Porcentaje
+Media de Humidity3pm | RainTomorrow = Yes,68.80001940931,19.03740879133072,30913,Porcentaje
+Diferencia de medias Humidity3pm: Yes - No,22.28939435126226,,138583,Puntos porcentuales
+Proporción de RainTomorrow = Yes,0.22418121848473554,,142193,Proporción

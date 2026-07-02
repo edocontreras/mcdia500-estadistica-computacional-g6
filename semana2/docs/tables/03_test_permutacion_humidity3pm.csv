@@ -1,0 +1,2 @@
+prueba_validada_s1,hipotesis_nula,hipotesis_alternativa,diferencia_observada_yes_no,t_welch_s1,p_value_parametrico_s1,p_value_permutacion_unilateral,p_value_permutacion_bilateral,n_permutaciones,media_distribucion_nula,sd_distribucion_nula,q025_nula,q975_nula
+t de Welch unilateral para Humidity3pm según RainTomorrow,Media Humidity3pm Yes = Media Humidity3pm No,Media Humidity3pm Yes > Media Humidity3pm No,22.28939435126226,182.60769329824922,0.0,9.999000099990002e-05,9.999000099990002e-05,10000,0.0002625092570904584,0.13388117949283174,-0.26251398205957804,0.2642375568490013

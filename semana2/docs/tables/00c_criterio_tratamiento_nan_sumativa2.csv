@@ -1,0 +1,7 @@
+procedimiento,variables_requeridas,tratamiento_nan,justificacion
+Bootstrap de media global de Humidity3pm,Humidity3pm,Exclusión de registros sin Humidity3pm,La media remuestreada debe estimarse desde la distribución empírica observada de la variable.
+Bootstrap de medias por RainTomorrow,Humidity3pm; RainTomorrow; RainTomorrow_bin,Exclusión de registros sin humedad o sin clasificación de lluvia al día siguiente,La diferencia de medias requiere pertenencia válida a grupo y valor numérico de humedad.
+Prueba de permutación,Humidity3pm; RainTomorrow,Uso de pares completos para humedad y grupo,La permutación intercambia etiquetas observadas entre valores observados; las etiquetas faltantes no forman parte de la distribución nula.
+Bootstrap de correlaciones,Variable meteorológica analizada; RainTomorrow_bin,Casos completos por par de variables,Cada correlación se estima con el máximo número de pares válidos disponibles para ese contraste.
+Simulación Monte Carlo,Parámetros estimados desde casos válidos de Sumativa 1,No se simulan datos faltantes; se simulan escenarios desde parámetros observados válidos,La simulación evalúa escenarios probabilísticos basados en estimadores ya depurados.
+Preparación Sumativa 3,Variables candidatas para modelamiento,La imputación se reserva para la fase de modelamiento predictivo,"En modelos, la imputación debe ajustarse dentro del entrenamiento para evitar fuga de información."

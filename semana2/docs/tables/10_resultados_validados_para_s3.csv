@@ -1,0 +1,7 @@
+resultado_validado,evidencia_sumativa2,decision_para_s3,nivel_confianza
+Separación de Humidity3pm entre RainTomorrow Yes y No,"Diferencia bootstrap BCa 95 % [22.0511, 22.5299]",Mantener Humidity3pm como predictor prioritario,Alto
+Prueba de hipótesis sobre Humidity3pm,p permutación unilateral = 0.000100,Usar la diferencia de humedad como relación estadística validada,Alto
+Correlación Humidity3pm con RainTomorrow_bin,r = 0.4462,Priorizar en modelos explicativos y predictivos,Alto
+RainToday_bin como señal antecedente,r = 0.3131,Incluir como variable categórica binaria,Medio-alto
+Pressure3pm con asociación inversa,r = -0.2260,Incluir por interpretación meteorológica y relación estable,Medio
+Robustez frente a outliers y supuestos,Diferencia original = 22.2894; diferencia winsorizada = 22.3699,No se requiere descartar el hallazgo principal por sensibilidad a extremos,Alto

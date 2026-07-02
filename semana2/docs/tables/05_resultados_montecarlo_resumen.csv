@@ -1,0 +1,2 @@
+n_iteraciones,media_delta_yes_no,mediana_delta_yes_no,sd_delta_yes_no,ic_empirico_95_li_delta,ic_empirico_95_ls_delta,probabilidad_delta_mayor_0,probabilidad_delta_mayor_10,probabilidad_delta_mayor_20,media_humidity_simulada,proporcion_lluvia_simulada
+100000,21.783046700508493,22.14110866020731,25.78812722230351,-29.484745479168915,71.06881620738675,0.799,0.67838,0.53175,51.45538267683256,0.22397
